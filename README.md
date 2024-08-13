@@ -81,7 +81,7 @@ To view the help manual, use the `-h` flag:
 **Single Domain:**
 
 ```
-./Digit.sh -d hackerone.com
+./Digit.sh -d example.com
 ```
 
 **Multiple Domains:**
