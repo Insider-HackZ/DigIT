@@ -17,13 +17,13 @@
 ### **1. Clone the Repository**
 
 ```
-git clone https://github.com/yourusername/DigIT.git
-cd DigIT
+git clone https://github.com/Byte-BloggerBase/DigIT.git
 ```
 
 ### **2. Make the Script Executable**
 
 ```
+cd DigIT
 chmod +x Digit.sh
 ```
 
