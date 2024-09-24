@@ -101,4 +101,4 @@ The tool organizes the output into directories:
 
 Developed by: [harshj054](https://www.linkedin.com/in/harsh-jain-7648382b7/)
 
-> If anyone would like to contribute to the development of Byte-BloggerBase/DigIT, please send an email to official@bytebloggerbase.com.
+> If anyone would like to contribute to the development of Insider-HackZ/DigIT, please send an email to official@bytebloggerbase.com.
