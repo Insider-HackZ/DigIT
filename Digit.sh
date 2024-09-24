@@ -13,14 +13,14 @@ function ver_idf() {
     local_version=v0.0.1
     
     # Fetch the latest version from the GitHub API
-    latest_version=$(curl -s https://api.github.com/repos/Byte-BloggerBase/DigIT/releases/latest | jq -r '.tag_name')
+    latest_version=$(curl -s https://api.github.com/repos/Insider-HackZ/DigIT/releases/latest | jq -r '.tag_name')
 
     if [ "$local_version" != "$latest_version" ]; then
         echo "Your version ($local_version) is outdated. The latest version is $latest_version."
         read -p "Do you want to update to the latest version? (y/n): " choice
         if [ "$choice" == "y" ]; then
             echo "Updating to version $latest_version..."
-            wget -O "$0" "https://raw.githubusercontent.com/Byte-BloggerBase/DigIT/main/Digit.sh"
+            wget -O "$0" "https://raw.githubusercontent.com/Insider-HackZ/DigIT/main/Digit.sh"
             echo "Update completed || Current Version ($latest_version)."
             echo "Run the tool again...."
             local_version=$latest_version
